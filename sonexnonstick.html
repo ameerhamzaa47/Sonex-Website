@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sonexnonstick.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Best Cookware Brand in Pakistan</title>
+</head>
+<body>
+    <div id="firstNav">
+    <div class="container">
+    <div class="topnav">
+        <div class="Delivery">
+            <p>
+            <i class="fa-solid fa-truck"></i>
+            <a href="">Free Delivery on the Shopping of Rs2000 & Above</a>
+            </p>
+        </div>
+        <div class="email">
+            <p>
+            <i class="fa-solid fa-envelope"></i>                
+            <a href="">info@sonex-nonstick.com</a>
+            <hr style="transform: rotate(90deg); width: 20px; position: relative; left: 72%; bottom: 25px;">
+            <hr style="transform: rotate(90deg); width: 20px; position: relative; left: 80%; bottom: 42px;">
+            <select>
+                <option value="English">English</option>
+            </select>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div id="IconSearch">
+    <img src="./Images/Logo.png" alt="">
+
+    <div id="searchBar">
+        <input type="text" placeholder="Search our product">
+        <button><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+    </div>
+
+    <!-- <div id="order">
+       <div id="callIcon"> <i class="fa-solid fa-phone-volume"></i></div>
+        <div id="callNo"><p>support & order</p>
+        <h5>+923117454111</h5></div>
+    </div> -->
+</div>
+
+
+<!-- Header Navbar -->
+
+
+<header>
+    <div class="inner-header">
+      <div class="container-header">
+        <div class="main-header">
+          <div class="bars" id="open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+          </div>
+          <div class="logo">
+            
+            <!-- Filter DropDown -->
+
+            <div style="z-index: 2;" class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Shop Categories <i class="fa-solid fa-list"></i> </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a id="filFryingPan" href="#FryingPan">Frying Pan</a>
+                  <a id="PreesureCooker" href="#PreesureCooker">Preesure Cooker</a>
+                  <a id="GiftPack" href="#GiftPack">Gift Pack</a>
+                  <!-- <a href="#contact">Contact</a>
+                  <a href="#custom">Custom</a>
+                  <a href="#support">Support</a>
+                  <a href="#tools">Tools</a> -->
+                </div>
+              </div>
+
+
+          </div>
+          <nav style="margin-left: -13%;" class="list-items active" id="show">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Export</a></li>
+              <li><a href="#">Catalogue</a></li>
+              <li><a href="#">Process Flow Chart</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+
+
+          <div id="cartIcon" class="icon-cart">
+            <i class="fa-regular fa-user"></i>
+            <i style="margin-left: 20%;" class="fa-solid fa-cart-shopping"></i>                
+        <span>0</span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- Add to Cart Shopping Page -->
+
+<div class="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart">
+        <div class="item">
+          <!-- <div class="image">
+              <img id="addimage" src="./Images/Product 1.jpg" alt="">
+          </div>
+          <div class="name">Mega Supar Tifan Box - Glass Lid</div>
+          <div class="totalPrice">39302:00</div>
+          <div style="display: none;" class="quantity">
+          <span class="minus">-</span>
+          <span>1</span>
+          <span class="plus">+</span>
+          </div> -->
+        </div>
+    </div>
+    <!-- <h2 id="totalCartPrice">Total Price: <p></p></h2> -->
+    <div class="btn">
+        <button class="close">Close</button>
+        <button id="check" class="checkOut">CheckOut</button>
+    </div>
+</div>
+
+
+<!-- Slider -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./Images/banner-1.jpg" class="d-block w-100" alt="...">
+        <div class="animated bounceInRight content" style="animation-delay: 0.2s;">
+        <h1>Classic King Gift Pack</h1>
+        <p>GLASS LID | CODE: 50058</p>
+        <button>Shop Now</button>
+    </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./Images/banner-2.jpg" class="d-block w-100" alt="...">
+        <div class="animated bounceInRight content" style="animation-delay: 0.2s;">
+        <h1>Elegant Gift Pack</h1>
+        <p>GLASS LID | CODE: 50097</p>
+        <button>Shop Now</button>
+    </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./Images/banner-3.jpg" class="d-block w-100" alt="...">
+        <div class="animated bounceInRight content" style="animation-delay: 0.2s;">
+        <h1>Desire Gift Pack</h1>
+        <p>GLASS LID | CODE: 50111</p>
+        <button>Shop Now</button>
+    </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span style="background-color: black; border-radius: 50px;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span style="background-color: black; border-radius: 50px;" class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Product Data -->
+  
+  
+  <div class="products">
+
+    <h2 style="margin-left: 6%; position: relative; bottom: 60px;" id="TrendingProducts">Trending Products</h2>
+    <hr style="height: 5px; width: 13%; background-color: red; position: relative; bottom: 60px; margin-left: 6%;">
+    
+  <div class="list" id="list_path1"></div> 
+
+  <h2 style="margin-left: 6%; position: relative; bottom: 60px;">Specials</h2>
+  <hr style="height: 5px; width: 7%; position: relative; bottom: 70px; background-color: red; margin-left: 6%;">
+
+    <div class="list" id="list_path2"></div> 
+
+
+    <h2 style="margin-left: 5%; position: relative; bottom: 70px;">Bestseller Collection</h2>
+    <hr style="height: 5px; width: 16%; position: relative; bottom: 70px; background-color: red; margin-left: 5%; ">
+
+
+     <div class="list" id="list_path3"></div> 
+     
+     <div class="list" id="list_path4"></div> 
+</div>
+
+
+
+<!-- Footer Logo -->
+
+  <div id="footerLogo">
+
+    <div class="flogo">
+      <img src="./Images/Footer Logo 1.png" alt="">
+      <h5>Daily Update</h5>
+      <p>Check out Store for latest items</p>
+    </div>
+
+    <div class="flogo">
+      <img src="./Images/Footer Logo 2.png" alt="">
+      <h5>Support</h5>
+      <p>9:00 AM to 5:00 PM +923117454111</p>
+    </div>
+
+    <div class="flogo">
+      <img src="./Images/Footer Logo 3.png" alt="">
+      <h5>Top Quality</h5>
+      <p>Our Cookware is of unmatched Quality</p>
+    </div>
+
+    <div class="flogo">
+      <img src="./Images/Footer Logo 4.png" alt="">
+      <h5>Follow-Up</h5>
+      <p>Follow up ater a purchase.</p>
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <div id="footer">
+
+    <div class="footerSectionLogo">
+      <img src="./Images/Logo.png" alt="">
+      <p>Sonex is a group of companies that manufacture Cookware, Sanitary Fitting, Ceramic Tiles and electric Fan. our Present Company is Cookware Company which is the Market leader in the region. We manufacturer Four type of cookware like aluminum Stainless Steel and Diecast.</p>
+      <b>Notice:</b>
+      <p>The plastic spoons available with our cookware are not made for regular cooking. Only use them to dish out or serve your food.</p>
+    </div>
+
+    <div class="footerSection">
+      <h5>Products</h5>
+      <p><a href="">Casserole Handi</a></p>
+      <p><a href="">Milk Pan</a></p>
+      <p><a href="">Frying Pan</a></p>
+      <p><a href="">Gift Sets</a></p>
+      <p><a href="">Tawa</a></p>
+      <p><a href="">Hot Plate</a></p>
+    </div>
+
+    <div class="footerSection">
+      <h5>Our Company</h5>
+      <p><a href="">Home</a></p>
+      <p><a href="">About US</a></p>
+      <p><a href="">Export</a></p>
+      <p><a href="">Catalogue</a></p>
+      <p><a href="">Process Flow Chart</a></p>
+      <p><a href="">Contact</a></p>
+    </div>
+
+    <div class="footerSection1">
+      <h5>My Account</h5>
+      <p><a href="">Wishlist</a></p>
+      <p><a href="">My Account</a></p>
+      <p><a href="">Cart</a></p>
+    </div>
+
+    <div class="footerSection2">
+      <h5>Store Information</h5>
+      <p><i class="fa-solid fa-location-dot"></i> Office Address: 60-61 / A, Small Industrial Estate # 2,Gujranwala - Pakistan</p>
+      <p><i class="fa-solid fa-phone"></i> +92(55)4284508 - +923117454111</p>
+      <p><i class="fa-regular fa-envelope"></i> info@sonex-nonstick.com</p>
+      <img src="./Images/Footer Licence.png.webp" alt="">
+    </div>
+
+
+  </div>
+
+  <div id="footerRights">
+    <p>Copyright © 2024 Sonex Non Stick | This website is made with ❤️ by Creative Dots. <span><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></span></p>
+  </div>
+
+  <div id="privacy">
+    <p>By Continuing Use This Site, You Agree To The <a href="">Privacy Policy</a> <button>Accept</button></p>
+  </div>
+
+  <script src="./sonexnonstick.js"></script>
+</body>
+</html>

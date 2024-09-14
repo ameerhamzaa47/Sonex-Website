@@ -1,0 +1,165 @@
+[
+    {
+        "id":1,
+        "Image":"./Images/Product 1.jpg",
+        "Image1":"./Images/Product 1 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Carroli Max Gift Pack - Glass Lid",
+        "Price":16420.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":2,
+        "Image":"./Images/Product 2.jpg",
+        "Image1":"./Images/Product 2 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Mega Super Gift Pack - Glass LID",
+        "Price":21760.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":3,
+        "Image":"./Images/Product 3.jpg",
+        "Image1":"./Images/Product 3 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Calix Gift Pack - Glass LID",
+        "Price":11500.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":4,
+        "Image":"./Images/Product 4.jpg",
+        "Image1":"./Images/Product 4 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Galaxy Marble  Gift Pack - Glass LID",
+        "Price":19950.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":5,
+        "Image":"./Images/Product 5.jpg",
+        "Image1":"./Images/Product 5 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Elegant Gift Pack - Glass LID",
+        "Price":18900.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":6,
+        "Image":"./Images/Product 6.png",
+        "Image1":"./Images/Product 6 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Titan Gift Pack - Glass LID",
+        "Price":18450.00,
+        "category":"PressurCooker"
+    },
+    {
+        "id":7,
+        "Image":"./Images/Product 7.jpg",
+        "Image1":"./Images/Product 7 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Grace Gift Pack - Glass LID",
+        "Price":16710.00,
+        "category":"PressurCooker"
+    },
+    {
+        "id":8,
+        "Image":"./Images/Product 8.jpg",
+        "Image1":"./Images/Product 8 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Royal Set (1X4) - Glass LID",
+        "Price":11490.00,
+        "category":"PressurCooker"
+    },
+    {
+        "id":9,
+        "Image":"./Images/Product 9.png",
+        "Image1":"./Images/Product 9 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Mega Gift Pack - Glass LID",
+        "Price":2900.00,
+        "category":"PressurCooker"
+    },
+    {
+        "id":10,
+        "Image":"./Images/Product 10.jpg",
+        "Image1":"./Images/Product 10 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Titan Gift - Glass LID",
+        "Price":21760.00,
+        "category":"PressurCooker"
+    },
+    {
+        "id":11,
+        "Image":"./Images/Product 11.jpg",
+        "Image1":"./Images/Product 11 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Calix Pack - Glass LID",
+        "Price":18450.00,
+        "category":"FryingPan"
+
+    },
+    {
+        "id":12,
+        "Image":"./Images/Product 12.jpg",
+        "Image1":"./Images/Product 12 (2).png",
+        "title":"Sonex Non Stick",
+        "name":"Grace Best Gift - Glass LID",
+        "Price":11500.00,
+        "category":"FryingPan"
+    },
+    {
+        "id":13,
+        "Image":"./Images/Product 13.png",
+        "Image1":"./Images/Product 13 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Carroli Gift Pack - Glass Lid",
+        "Price":16710.00,
+        "category":"FryingPan"
+    },
+    {
+        "id":14,
+        "Image":"./Images/Product 14.jpg",
+        "Image1":"./Images/Product 14 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Elegant Gift - Glass LID",
+        "Price":16420.00,
+        "category":"FryingPan"
+    },
+    {
+        "id":15,
+        "Image":"./Images/Product 15.jpg",
+        "Image1":"./Images/Product 15 (2).png",
+        "title":"Sonex Non Stick",
+        "name":"Titan Best Pack - Glass LID",
+        "Price":21760.00,
+        "category":"FryingPan"
+    },
+    {
+        "id":16,
+        "Image":"./Images/Product 16.png",
+        "Image1":"./Images/Product 16 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Frying Pan",
+        "Price":18900.00,
+        "category":"FryingPan"
+    },
+    {
+        "id":17,
+        "Image":"./Images/Product 17.png",
+        "Image1":"./Images/Product 17 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Mega Super Gift Pack - Glass LID",
+        "Price":18450.00,
+        "category":"GiftPack"
+    },
+    {
+        "id":18,
+        "Image":"./Images/Product 18.jpg",
+        "Image1":"./Images/Product 18 (2).jpg",
+        "title":"Sonex Non Stick",
+        "name":"Classic Work - Glass LID",
+        "Price":4415.00,
+        "category":"FryingPan"
+    }
+]
